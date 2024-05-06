@@ -1,0 +1,15 @@
+{
+  "name": "toolshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch ./src/scss/main.scss ./dist/assets/css/style.css --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
