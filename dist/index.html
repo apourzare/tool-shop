@@ -4,31 +4,146 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>تول شاپ</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+
     <script
       src="https://kit.fontawesome.com/cb7edb6f52.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <header class="bg-dark">
-      <div class="border-bottom">
-        <div class="container d-flex justify-content-between">
+    <header class="bg-slate-950">
+      <div class="border-b border-slate-800/60">
+        <div class="container flex justify-between items-center py-2">
           <h2 class="text-white fs-6 mb-0">
-            به وبسایت <span class="text-warning">تول شاپ</span> خوش آمدید
+            به وبسایت <span class="text-yellow-500 text-sm">تول شاپ</span> خوش
+            آمدید
           </h2>
           <ul class="mb-0">
             <li>
-              <a href="#" class="text-light">
-                <i class="fa-brands fa-instagram"></i>
+              <a href="#" class="text-slate-300 hover:text-red-600">
+                <i class="fa-brands fa-instagram text-xl"></i>
               </a>
             </li>
           </ul>
         </div>
       </div>
-      <h1 class="">تول شاپ</h1>
+
+      <div class="container flex items-center gap-8">
+        <h1 class="">
+          <a href="#" class="flex items-center gap-2 py-3">
+            <span class="material-symbols-outlined text-7xl text-yellow-500">
+              tools_power_drill
+            </span>
+            <span class="text-white text-3xl font-bold">تول شاپ</span>
+          </a>
+        </h1>
+
+        <ul class="flex-1 flex gap-4">
+          <li class="">
+            <a
+              class="flex items-center text-white gap-2 hover:text-yellow-500"
+              aria-current="page"
+              href="#"
+            >
+              <span class="material-symbols-outlined"> home </span>
+              صفحه نخست
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="flex items-center text-white gap-2 hover:text-yellow-500"
+              href="#"
+            >
+              <span class="material-symbols-outlined"> groups </span>
+              درباره ما
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="flex items-center text-white gap-2 hover:text-yellow-500"
+              href="#"
+            >
+              <span class="material-symbols-outlined">
+                perm_contact_calendar
+              </span>
+              تماس با ما
+            </a>
+          </li>
+        </ul>
+
+        <div class="">
+          <a
+            href="#"
+            class="bg-primary rounded hover:shadow-lg hover:bg-rose-800 hover:rounded-full text-white py-2 px-4 hover:transition-all hover:duration-300 hover:ease-linear"
+            >ورود | ثبت نام</a
+          >
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg bg-white border-bottom border-danger">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >مکانیکی</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">نجاری</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  مجزای
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="ابزار خود را جستجو کنید..."
+                aria-label="Search"
+              />
+              <button class="btn btn-danger" type="submit">
+                <span class="material-symbols-outlined"> search </span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
-    <script src="./assets/js/popper.js"></script>
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
